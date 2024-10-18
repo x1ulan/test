@@ -3398,6 +3398,15 @@ textarea::-webkit-scrollbar {
     color: hsla(0,0%,100%,.3)
 }
 
+.wrapper_a18c91 {
+    background-color: rgba(0,0,0,.4)
+}
+
+.promotedTagBackground_a4a2b0 {
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.8));
+    color: var(--text-normal)
+}
+
 .userProfileOuterUnthemed_c69a7b {
     background-color: rgba(0,0,0,.4)
 }
@@ -6083,16 +6092,38 @@ code {
     background-color: var(--popout-color)
 }
 
-.picker_cd703d .soundButton_f40049,.picker_cd703d .categoryIcon_ceda83.selected_ceda83 {
+.soundButton_f40049,.categoryIcon_ceda83.selected_ceda83 {
     background-color: var(--main-color)
 }
 
-.picker_cd703d .soundButton_f40049:hover {
+.soundButton_f40049:hover {
     background-color: var(--hover-color)
 }
 
-.picker_cd703d .keybindHint_c66e5e {
+.keybindHint_c66e5e {
     background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
+}
+
+.picker_cd703d.refresh_cd703d {
+    background-color: var(--popout-color)
+}
+
+.soundButtonRefresh_f40049 {
+    background: var(--main-color);
+    box-shadow: 1px 0 0 var(--main-color),0 1px 4px 0 var(--main-color)
+}
+
+.soundButtonRefresh_f40049:hover {
+    background: var(--hover-color);
+    box-shadow: 0 1px 0 0 var(--hover-color),0 1px 4px 0 var(--hover-color)
+}
+
+.soundAddTextRefresh_c06ee5 {
+    color: var(--text-normal)
+}
+
+.soundAddButtonRefresh_c06ee5 {
+    background-color: var(--main-color)
 }
 
 .skuSelectModalHeader_f92df2,.skuSelectModalContent_f92df2 {
